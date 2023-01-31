@@ -73,3 +73,19 @@ class ChatDataset(Dataset):
     def __len__(self):
         return self.n_samples
 
+
+class SeqClassifier(nn.Module):
+    def __init__(self, input_size, hidden_size, output_size):
+        super(SeqClassifier, self).__init__()
+        self.fc1 = nn.Linear(input_size, hidden_size) 
+        self.fc2 = nn.Linear(hidden_size, hidden_size) 
+        self.fc3 = nn.Linear(hidden_size, output_size)
+        self.relu = nn.ReLU()
+    
+    def forward(self, x):
+        out = self.relu(self.fc1(x))
+        out = self.relu(self.fc2(out))
+
+        return self.fc3(out)
+
+
