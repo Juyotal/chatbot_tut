@@ -1,0 +1,71 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "science",
+        "patterns": [
+          "How many colors are in the rainbow?",
+          "Which is the most abundant element in the universe?",
+          "What is the hardest natural substance on Earth?",
+          "What is the study of mushrooms called?",
+          "Can an airplane go in reverse?",
+          "What is the largest desert in the world?",
+          "What does DNA stand for?",
+          "How do airplanes stay in the air?",
+          "Which freezes faster, hot water or cold water?",
+          "Can lightning strike the same place twice?",
+          "Can you tell me what an atom is?",
+          "what is science?",
+          "Can gold be created from other elements?",
+          "How does fat leave your body when you lose weight?",
+          "what are the parts of the human body",
+          "what is human body composition",
+          "what is bone composition",
+          "what is the composition of water?",
+          "scientific term",
+          "science",
+          "scientific",
+          "why is the earth round?",
+          "is the earth a planet",
+          "how many planets are in our solar system",
+          "do you know what oil is made up of?",
+          "can you tell me the size of the earth?",
+          "can you tell me what is in the ocean?",
+          "can you tell me what science is?"
+        ],
+        "responses": [
+            "Sorry I do not have an answer to your question..."
+        ]
+      }
+    ]
+  }
